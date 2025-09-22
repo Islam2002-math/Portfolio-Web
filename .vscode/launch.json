@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3002/endpoint_unsaved/extension-output-sarthikbhat.json-server-#1-json-server",
+            "request": "launch",
+            "url": "http://127.0.0.1:3002/endpoint_unsaved/extension-output-sarthikbhat.json-server-#1-json-server"
+        }
+    ]
+}

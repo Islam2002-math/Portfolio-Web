@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-moderne",
+  "version": "1.0.0",
+  "description": "Portfolio dynamique et moderne avec fond noir",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -c-1 -o",
+    "start": "npx http-server . -p 3000 -c-1",
+    "build": "echo 'Build completed - static files ready'"
+  },
+  "keywords": ["portfolio", "web", "html", "css", "javascript"],
+  "author": "Développeur",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
