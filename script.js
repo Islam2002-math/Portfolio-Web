@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initSkillCategories();
     initCounters();
     initScrollEffects();
-    initContactForm();
+    //initContactForm();
     initProjectsFilter();
     initTestimonialsSlider();
     initPerformanceOptimizations();
@@ -456,7 +456,7 @@ function initScrollEffects() {
 }
 
 // Formulaire de contact
-function initContactForm() {
+/*function initContactForm() {
     const form = document.querySelector('.contact-form');
     if (!form) return;
 
@@ -498,7 +498,8 @@ function initContactForm() {
         input.addEventListener('blur', () => validateField(input));
         input.addEventListener('input', () => clearValidation(input));
     });
-}
+}*/
+
 
 function validateForm(form) {
     const requiredFields = form.querySelectorAll('[required]');
